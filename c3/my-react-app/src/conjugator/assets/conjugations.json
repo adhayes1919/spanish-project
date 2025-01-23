@@ -1,0 +1,243 @@
+{
+    "ar": {
+        "indicative": {
+            "present": {
+                "yo": "o",
+                "tú": "as",
+                "usted": "a",
+                "nosotros": "amos",
+                "ustedes": "an"
+            },
+            "preterite": {
+                "yo": "é",
+                "tú": "aste",
+                "usted": "ó",
+                "nosotros": "amos",
+                "ustedes": "aron"
+            },
+            "imperfect": {
+                "yo": "aba",
+                "tú": "abas",
+                "usted": "aba",
+                "nosotros": "ábamos",
+                "ustedes": "aban"
+            },
+            "conditional": {
+                "yo": "aría",
+                "tú": "arías",
+                "usted": "aría",
+                "nosotros": "aríamos",
+                "ustedes": "arían"
+            },
+            "future": {
+                "yo": "aré",
+                "tú": "arás",
+                "usted": "ará",
+                "nosotros": "aremos",
+                "ustedes": "arán"
+            }
+        },
+        "subjunctive": {
+            "present": {
+                "yo": "e",
+                "tú": "es",
+                "usted": "e",
+                "nosotros": "emos",
+                "ustedes": "en"
+            },
+            "imperfect": {
+                "yo": "ara",
+                "tú": "aras",
+                "usted": "ara",
+                "nosotros": "áramos",
+                "ustedes": "aran"
+            },
+            "future": {
+                "yo": "are",
+                "tú": "ares",
+                "usted": "are",
+                "nosotros": "áremos",
+                "ustedes": "aren"
+            }
+        },
+        "imperative": {
+            "affirmative": {
+                "tú": "a",
+                "usted": "e",
+                "nosotros": "emos",
+                "ustedes": "en"
+            },
+            "negative": {
+                "tú": "es",
+                "usted": "e",
+                "nosotros": "emos",
+                "ustedes": "en"
+            }
+        },
+        "participles": {
+            "present": "ando",
+            "past": "ado"
+        }
+    },
+    "er": {
+        "indicative": {
+            "present": {
+                "yo": "o",
+                "tú": "es",
+                "usted": "e",
+                "nosotros": "emos",
+                "ustedes": "en"
+            },
+            "preterite": {
+                "yo": "í",
+                "tú": "iste",
+                "usted": "ió",
+                "nosotros": "imos",
+                "ustedes": "ieron"
+            },
+            "imperfect": {
+                "yo": "ía",
+                "tú": "ías",
+                "usted": "ía",
+                "nosotros": "íamos",
+                "ustedes": "ían"
+            },
+            "conditional": {
+                "yo": "ería",
+                "tú": "erías",
+                "usted": "ería",
+                "nosotros": "eríamos",
+                "ustedes": "erían"
+            },
+            "future": {
+                "yo": "eré",
+                "tú": "erás",
+                "usted": "erá",
+                "nosotros": "eremos",
+                "ustedes": "erán"
+            }
+        },
+        "subjunctive": {
+            "present": {
+                "yo": "a",
+                "tú": "as",
+                "usted": "a",
+                "nosotros": "amos",
+                "ustedes": "an"
+            },
+            "imperfect": {
+                "yo": "iera",
+                "tú": "ieras",
+                "usted": "iera",
+                "nosotros": "iéramos",
+                "ustedes": "ieran"
+            },
+            "future": {
+                "yo": "iere",
+                "tú": "ieres",
+                "usted": "iere",
+                "nosotros": "iéremos",
+                "ustedes": "ieren"
+            }
+        },
+        "imperative": {
+            "affirmative": {
+                "tú": "e",
+                "usted": "a",
+                "nosotros": "amos",
+                "ustedes": "an"
+            },
+            "negative": {
+                "tú": "as",
+                "usted": "a",
+                "nosotros": "amos",
+                "ustedes": "an"
+            }
+        },
+        "participles": {
+            "present": "iendo",
+            "past": "ido"
+        }
+    },
+    "ir": {
+        "indicative": {
+            "present": {
+                "yo": "o",
+                "tú": "es",
+                "usted": "e",
+                "nosotros": "imos",
+                "ustedes": "en"
+            },
+            "preterite": {
+                "yo": "í",
+                "tú": "iste",
+                "usted": "ió",
+                "nosotros": "imos",
+                "ustedes": "ieron"
+            },
+            "imperfect": {
+                "yo": "ía",
+                "tú": "ías",
+                "usted": "ía",
+                "nosotros": "íamos",
+                "ustedes": "ían"
+            },
+            "conditional": {
+                "yo": "iría",
+                "tú": "irías",
+                "usted": "iría",
+                "nosotros": "iríamos",
+                "ustedes": "irían"
+            },
+            "future": {
+                "yo": "iré",
+                "tú": "irás",
+                "usted": "irá",
+                "nosotros": "iremos",
+                "ustedes": "irán"
+            }
+        },
+        "subjunctive": {
+            "present": {
+                "yo": "a",
+                "tú": "as",
+                "usted": "a",
+                "nosotros": "amos",
+                "ustedes": "an"
+            },
+            "imperfect": {
+                "yo": "iera",
+                "tú": "ieras",
+                "usted": "iera",
+                "nosotros": "iéramos",
+                "ustedes": "ieran"
+            },
+            "future": {
+                "yo": "iere",
+                "tú": "ieres",
+                "usted": "iere",
+                "nosotros": "iéremos",
+                "ustedes": "ieren"
+            }
+        },
+        "imperative": {
+            "affirmative": {
+                "tú": "e",
+                "usted": "a",
+                "nosotros": "amos",
+                "ustedes": "an"
+            },
+            "negative": {
+                "tú": "as",
+                "usted": "a",
+                "nosotros": "amos",
+                "ustedes": "an"
+            }
+        },
+        "participles": {
+            "present": "iendo",
+            "past": "ido"
+        }
+    }
+}
+

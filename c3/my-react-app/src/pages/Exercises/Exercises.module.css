@@ -1,0 +1,33 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    border: 1px solid #aaa;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3 ease;
+}
+.cardLink {
+    background-color: #BDD2f8;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.cardLink:visited {
+    color: white;
+}
+.card:hover {
+    transform: scale(1.05);
+    background-color: #DBEEF7;
+}

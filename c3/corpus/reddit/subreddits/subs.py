@@ -1,0 +1,44 @@
+
+subreddits = ['spanishmeme', 'spain', 'askspain', 'askredditespanol', 'podemos', 'minecraftespanol', 'mexico', 'espanol', 'historiasdereddit', 'noticias_en_espanol', 'es', 'preguntaleareddit', 'chile', 'memesesp', 'argentina', 'maau', 'aww_espanol', 'asi_va_espana', 'vzla', 'beelcitosmemes', 'ciencia', 'memexico', 'puertorico', 'cuentaleareddit', 'libros', 'futbol', 'uruguay', 'copypasta_es', 'rolenespanol', 'colombia', 'spainpolitics', 'espana', 'eshistoria', 'orslokx', 'vivimosenunasociedad', 'dylanteroyt', 'filosofia_en_espanol', 'musicaenespanol', 'allinspanish', 'warhammer40kesp', 'programacion', 'fisica', 'panama', 'writestreakes', 'ubius', 'criptomonedas', 'peru', 'lmdshow', 'paraguay', 'argnime', 'redditores', 'escribir', 'coronavirus_espanol', 'guatemala', 'santiago', 'ticos', 'monterrey', 'preguntasreddit', 'buenosaires', 'dankgentina', 'redditpregunta', 'lima_peru', 'cordoba', 'medellin', 'askargentina', 'republica_argentina', 'colombiareddit', 'polaca', 'bolivia', 'femboy_hispanos', 'shitpostesp', 'callofdutymobilees', 'superjueves', 'videojuegos', 'latinoamerica', 'askmexico', 'mexicocity', 'mexico_news', 'mexicofinanciero', 'somosmexico', 'placemexico', 'mexicobursatil', 'mexico_economy', 'mexicowave', 'mexico_politics', 'fotosmexico', 'republicaargentina', 'argentinabenderstyle', 'descuentosargentina', 'fitnessargentina', 'argentinas_lo', 'argentinacocina', 'argaming', 'coronavirusargentina', 'merval', 'mercadoreddit', 'bocajuniors', 'rosario', 'arautos', 'bogota', 'venezuela', 'ecuador', 'republicadechile', 'chileit', 'clubdelecturachile', 'nicaragua', 'burises', 'charruadevs', 'realcuba', 'elsalvador', 'honduras', 'dominicanos', 'spainreps', 'malaga', 'barcelona', 'valencia', 'tijuana', 'libertadores', 'chusommontero', 'cariverplate', 'guadalajara', 'chivas', 'clubamerica', 'indiemx', 'cruzazul', 'opinionespolemicas', 'escine', 'peliculas', 'ilutv', 'lostmediaesp', 'aradiroff', 'terrorterrorifico', 'devsarg', 'juansguarnizo', 'comidamexicana', 'changarrito', 'mujicocity', 'alfajor', 'moaigreddit', 'queretaro', 'acapulco', 'motosarg', 'derechogenial', 'lacamiseta', 'empleos_ar', 'historiasdeterror', 'ayudamexico', 'tengomiedodepreguntar', 'tecnologia', 'taquerosprogramadores', 'tecdemonterrey', 'mexicali', 'oaxaca', 'skyshocksub', 'aguascalientes', 'unam', 'videojuegosmx', 'chilegames', 'argengaming', 'carola', 'thefamilychantel', 'desahogo', 'soyelmalo', 'soyunidiota', 'poesia', 'amoralamilanesa', 'gimnasio', 'guanajuato', 'esconversacion', 'conversaciones', 'preguntas_de_reddit_', 'relaciones', 'necesitodesahogarme', 'chilefit', 'estudosbr', 'cdmx', 'puebla', 'staryuukisincensura', 'consejosdepareja', 'retheys', 'webadas', 'cuu', 'latesitoo', 'dedreviil', 'elcalifato', 'juaniquilador', 'juarez', 'saltillo', 'valentgarzonc', 'guibelreviews', 'spreen', 'michoacan', 'spanishhistorymemes', 'team_liberal', 'spainwave', 'andalucia', 'asturias', 'castellano', 'ceutaymelilla', 'extremadura', 'laliga', 'larioja', 'libertario', 'madrid', 'navarra', 'spaineconomics', 'aragones', 'canarias', 'cantabria', 'castilla_lamancha', 'castillayleon', 'comunidades', 'esgaming', 'esseries', 'murcia']
+
+"""
+[
+    "Asi_va_Espana",
+    "SpainPolitics",
+    "SpanishHistoryMemes",
+    "Team_Liberal",
+    "spainwave",
+    "Andalucia",
+    "Asi_va_Espana",
+    "Asturias",
+    "Castellano",
+    "CeutaYMelilla",
+    "Espana",
+    "Extremadura",
+    "LMDShow",
+    "LaLiga",
+    "LaRioja",
+    "Libertario",
+    "Madrid",
+    "Navarra",
+    "SpainEconomics",
+    "aragones",
+    "askspain",
+    "canarias",
+    "cantabria",
+    "castilla_lamancha",
+    "castillayleon",
+    "comunidades",
+    "es",
+    "esCine",
+    "esGaming",
+    "esSeries",
+    "espanol",
+    "futbol",
+    "murcia",
+    "orslokx",
+    "spain",
+    "spainwave",
+    "valencia"
+]
+"""

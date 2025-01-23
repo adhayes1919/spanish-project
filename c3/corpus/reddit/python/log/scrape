@@ -1,0 +1,164 @@
+Preparing to scrape: r/esSeries
+Starting post: 0
+Found: 26 comments
+Starting post: 1
+Found: 45 comments
+Starting post: 2
+Found: 10 comments
+Starting post: 3
+Found: 14 comments
+Starting post: 4
+Found: 74 comments
+Starting post: 5
+Found: 103 comments
+Starting post: 6
+Found: 9 comments
+Starting post: 7
+Found: 108 comments
+Starting post: 8
+Found: 9 comments
+Starting post: 9
+Found: 2 comments
+Starting post: 10
+Found: 0 comments
+Starting post: 11
+Found: 0 comments
+Starting post: 12
+Found: 8 comments
+Starting post: 13
+Found: 1 comments
+Starting post: 14
+Found: 29 comments
+Starting post: 15
+Found: 6 comments
+Starting post: 16
+Found: 18 comments
+Starting post: 17
+Found: 3 comments
+Starting post: 18
+Found: 0 comments
+Starting post: 19
+Found: 0 comments
+Starting post: 20
+Found: 0 comments
+Starting post: 21
+Found: 14 comments
+Starting post: 22
+Found: 9 comments
+Starting post: 23
+Found: 1 comments
+Starting post: 24
+Found: 0 comments
+Starting post: 25
+Found: 0 comments
+Starting post: 26
+Found: 5 comments
+Starting post: 27
+Found: 4 comments
+Starting post: 28
+Found: 0 comments
+Starting post: 29
+Found: 31 comments
+Starting post: 30
+Found: 4 comments
+Starting post: 31
+Found: 0 comments
+Starting post: 32
+Found: 5 comments
+Starting post: 33
+Found: 0 comments
+Starting post: 34
+Found: 0 comments
+Starting post: 35
+Found: 0 comments
+Starting post: 36
+Found: 0 comments
+Starting post: 37
+Found: 0 comments
+Starting post: 38
+Found: 0 comments
+Starting post: 39
+Found: 0 comments
+Starting post: 40
+Found: 2 comments
+Starting post: 41
+Found: 11 comments
+Starting post: 42
+Found: 7 comments
+Starting post: 43
+Found: 8 comments
+Starting post: 44
+Found: 1 comments
+Starting post: 45
+Found: 1 comments
+Starting post: 46
+Found: 7 comments
+Starting post: 47
+Found: 0 comments
+Starting post: 48
+Found: 0 comments
+Starting post: 49
+Found: 0 comments
+Starting post: 50
+Found: 0 comments
+Starting post: 51
+Found: 0 comments
+Starting post: 52
+Found: 0 comments
+Starting post: 53
+Found: 0 comments
+Starting post: 54
+Found: 2 comments
+Starting post: 55
+Found: 0 comments
+Starting post: 56
+Found: 0 comments
+Starting post: 57
+Found: 0 comments
+Starting post: 58
+Found: 12 comments
+Starting post: 59
+Found: 3 comments
+Starting post: 60
+Found: 2 comments
+Starting post: 61
+Found: 1 comments
+Starting post: 62
+Found: 2 comments
+Starting post: 63
+Found: 11 comments
+Starting post: 64
+Found: 10 comments
+Starting post: 65
+Found: 0 comments
+Starting post: 66
+Found: 31 comments
+Starting post: 67
+Traceback (most recent call last):
+  File "/home/ayden/cs/petprojects/js/c3/corpus/reddit/scrape.py", line 61, in <module>
+    data = scrape_reddit(sub, limit=100) 
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayden/cs/petprojects/js/c3/corpus/reddit/scrape.py", line 41, in scrape_reddit
+    post.comments.replace_more(limit=0) # ? 
+    ^^^^^^^^^^^^^
+  File "/home/ayden/cs/anaconda3/lib/python3.11/site-packages/praw/models/reddit/base.py", line 38, in __getattr__
+    self._fetch()
+  File "/home/ayden/cs/anaconda3/lib/python3.11/site-packages/praw/models/reddit/submission.py", line 726, in _fetch
+    data = self._fetch_data()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ayden/cs/anaconda3/lib/python3.11/site-packages/praw/models/reddit/submission.py", line 744, in _fetch_data
+    return self._reddit.request(method="GET", params=params, path=path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayden/cs/anaconda3/lib/python3.11/site-packages/praw/util/deprecate_args.py", line 46, in wrapped
+    return func(**dict(zip(_old_args, args)), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayden/cs/anaconda3/lib/python3.11/site-packages/praw/reddit.py", line 963, in request
+    return self._core.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ayden/cs/anaconda3/lib/python3.11/site-packages/prawcore/sessions.py", line 328, in request
+    return self._request_with_retries(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayden/cs/anaconda3/lib/python3.11/site-packages/prawcore/sessions.py", line 267, in _request_with_retries
+    raise self.STATUS_EXCEPTIONS[response.status_code](response)
+prawcore.exceptions.TooManyRequests: received 429 HTTP response
+
