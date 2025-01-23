@@ -28,6 +28,7 @@ An interactive language-learning site built from scratch using React and Express
 ### Machine Learning & Corpus Development
 - **Reddit-Based Spanish Corpus:** Scraped millions of Spanish sentences from Reddit to create a large dataset for training language models.
 - **Data Processing:** Cleaned and tokenized sentences, filtering out non-Spanish content.
+- **Basic Analysis:** Matplotlib and numpy were used to compare captured corpus against wordfreq library. 
 - **Transformer Model:** In development for predicting missing words in sentences (currently limited by GPU constraints).
 
 ## 🛠️ Installation
