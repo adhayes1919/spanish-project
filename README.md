@@ -1,46 +1,77 @@
+# Interactive Spanish Learning Platform
 
-# Interactive Spanish Language Learning Platform
+This project is designed as my learning playground for web dev and machine learning. It encompasses two smaller projects. Due to currently being away studying ecology in Costa Rica, this repository is quite messy but will be cleaned up and devloped further in the future. Just about everything present here was learned for this project specifically. 
 
-## Overview
-This project is an interactive language-learning site built from scratch using **React and Express**, designed to provide an engaging experience for learning Spanish. It offers various exercises, translation tools, and a chatbot for conversational practice. The backend tracks user progress, identifies common errors, and dynamically adjusts lessons to improve learning outcomes.
+An interactive language-learning site built from scratch using React and Express. Designed to provide engaging Spanish-learning exercises, translation tools, and a chatbot for practice. The backend tracks user progress, stores common errors, and dynamically adjusts lessons. 
 
-This project serves as a **personal learning playground**, where most components have been manually implemented to deepen understanding of full-stack web development. It integrates **LibreTranslate** for real-time translations and **MySQL** for user authentication and data storage. Though it is still a work in progress, the foundation has been laid for future improvements.
+## /my-react-app 
+- web dev component 
 
-## Features
-### Web Interface
-- **Translation and Conjugation Tools:** Users can access a translation feature powered by **LibreTranslate**, as well as verb conjugation exercises designed for self-guided learning.
-- **Graded Exercises:** Users can practice structured exercises, including fill-in-the-blank, sentence translations, and comprehension-based questions.
-- **User Progress Tracking:** The backend stores user data, tracks commonly missed words, and adjusts future exercises based on personal performance.
+## /corpus 
+- machine learning component 
 
-### Machine Learning Component
-- **Corpus-Based AI Model:** A machine learning model was developed using millions of scraped Spanish sentences from **Reddit**, processed into a structured dataset.
-- **Bash Preprocessing:** Due to **GPU limitations**, data preprocessing was handled using **Bash scripts** instead of Python to maximize efficiency.
-- **Transformer Model Development:** The beginnings of a **transformer-based model** were implemented, with the goal of predicting missing words in exercises and simulating interactive chatbot conversations.
-- **Current Roadblock:** Model training was halted due to computational constraints, as training transformers locally without access to high-performance GPUs proved impractical.
+## 🚀 Features
 
-## Project Structure
-As of now, the project is maintained remotely due to my studies in **Costa Rica**, leading to a somewhat messy file structure:
-- **Top-Level Directory:** Contains one main folder, `c3`.
-- **`c3/my-react-app/`** - The **JavaScript-based front-end**, built with **React**.
-- **`c3/corpus/`** - The **Python-based backend**, handling NLP processes and data management.
-- **`corpus2.ipynb`** - The current version of the machine learning model, representing the latest iteration of the transformer-based approach.
+### Frontend (React.js)
+- **Home Tab:** Displays project information and provides a translation field powered by LibreTranslate. Auto-detects English/Spanish but allows manual selection.
+- **Exercises Tab:** Planned to contain dynamic exercises such as sentence completion and fill-in-the-blank activities.
+- **Chat Tab:** Will include an AI-powered chatbot for conversational Spanish practice.
+- **Settings Tab:** Placeholder for user preferences, account settings, and progress tracking.
 
-## Future Work
-### **1. Enhancing the Web Application**
-- Improve **UI/UX** to make the interface more user-friendly.
-- Expand **translation functionalities**, allowing real-time sentence breakdown and grammar analysis.
-- Implement **more complex exercises**, including contextual sentence completion and listening comprehension.
 
-### **2. Advancing the Machine Learning Model**
-- **Refine corpus preprocessing**, ensuring cleaner sentence segmentation and tokenization.
-- Secure access to **GPU computing resources**, either via cloud providers or institutional research clusters, to continue model training.
-- Improve **word prediction accuracy**, enabling adaptive sentence completion exercises.
-- Implement **chatbot interactivity**, allowing learners to engage in AI-powered Spanish conversations.
+### Backend (Express.js + MySQL)
+- **User Authentication:** Stores user login information securely.
+- **Adaptive Learning System:** Plans to track common errors, frequently missed words, and provide personalized exercises.
+- **Irregular Verb Database:** Will store verb conjugations to enhance learning tools.
+- **API Calls:** Backend endpoints to support translation, exercise generation, and chatbot interactions.
 
-### **3. Backend and Data Optimization**
-- Optimize **MySQL database structure** for improved query efficiency.
-- Develop an **API for external integrations**, allowing external applications to leverage the translation and conjugation functionalities.
-- Store **user engagement metrics**, creating data-driven improvements for lesson personalization.
+### Machine Learning & Corpus Development
+- **Reddit-Based Spanish Corpus:** Scraped millions of Spanish sentences from Reddit to create a large dataset for training language models.
+- **Data Processing:** Cleaned and tokenized sentences, filtering out non-Spanish content.
+- **Transformer Model:** In development for predicting missing words in sentences (currently limited by GPU constraints).
 
-## Conclusion
-This project represents a **self-driven learning initiative**, integrating full-stack web development, machine learning, and NLP techniques. While significant progress has been made, it remains an ongoing development effort with numerous opportunities for refinement and expansion. Future work will focus on addressing computational limitations, improving AI-based exercises, and making the system more robust and scalable.
+## 🛠️ Installation
+
+### Prerequisites
+- Node.js
+- MySQL
+- Python (for NLP preprocessing)
+
+### Setup
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/spanish-learning-app.git
+   cd spanish-learning-app
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   cd backend && npm install
+   ```
+3. **Start the development servers:**
+   ```bash
+   cd frontend && npm start
+   cd backend && node server.js
+   ```
+4. **Set up MySQL Database:**
+   ```sql
+   CREATE DATABASE spanish_learning;
+   ```
+   Run the database schema provided in `/backend/database/schema.sql`.
+
+## 📅 Future Plans
+- **Expand Dataset:** Scrape more Spanish-language sources beyond Reddit.
+- **Improve Chatbot:** Enhance interactivity and accuracy of responses.
+- **Advanced User Tracking:** Store user progress, common mistakes, and learning patterns.
+- **Gamification:** Implement badges, achievements, and leaderboards.
+- **Browser Extension:** Enable users to highlight words on any webpage and add them to their study bank.
+- **Offline Mode:** Support downloadable lessons and exercises.
+- **Cloud-Based AI Training:** Seek resources for model training on a more powerful GPU.
+
+## 🙌 Acknowledgments
+- LibreTranslate for open-source translation support.
+- Reddit communities for providing a vast corpus of Spanish text.
+- Various online resources for helping with web scraping and NLP techniques.
+
+---
+This project is a work in progress and serves as both a learning experience and a practical tool for language acquisition. Contributions and feedback are welcome!
