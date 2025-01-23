@@ -4,10 +4,10 @@ This project is designed as my learning playground for web dev and machine learn
 
 An interactive language-learning site built from scratch using React and Express. Designed to provide engaging Spanish-learning exercises, translation tools, and a chatbot for practice. The backend tracks user progress, stores common errors, and dynamically adjusts lessons. 
 
-## /my-react-app 
+## ./c3/my-react-app 
 - web dev component 
 
-## /corpus 
+## ./c3/corpus 
 - machine learning component 
 
 ## 🚀 Features
